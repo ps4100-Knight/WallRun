@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\inc\\wallrun\\wallrun.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\wallruneditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\development\\wallrun\\definitions.wallrun.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
