@@ -7,6 +7,10 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
+#include "Spikes.h"
+#include "WallSpike.h"
+#include "Engine.h"
+
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -43,6 +47,8 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &APlayerCharacter::OnOverlapBegin);
 	
 	CanMove = true;
 }
@@ -78,9 +84,32 @@ void APlayerCharacter::MoveRight(float value)
 
 void APlayerCharacter::RestartLevel()
 {
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()));
 }
 
 void APlayerCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+
+	if (OtherActor != nullptr)
+	{
+
+		ASpikes* WallSpike = Cast<AWallSpike>(OtherActor);
+		ASpikes* Spike = Cast<ASpikes>(OtherActor);
+
+		if (WallSpike || Spike)
+		{
+
+			GetMesh()->Deactivate();
+			GetMesh()->SetVisibility(false);
+
+			CanMove = false;
+
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &APlayerCharacter::RestartLevel, 2.f, false);
+
+
+		}
+	}
+
 }
 

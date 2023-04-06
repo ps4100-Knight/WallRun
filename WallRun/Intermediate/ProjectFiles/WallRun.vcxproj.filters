@@ -89,5 +89,11 @@
     <ClInclude Include="..\..\Source\WallRun\WallRunGameMode.h">
       <Filter>Source\WallRun</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\WallRun\WallSpike.cpp">
+      <Filter>Source\WallRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WallRun\WallSpike.h">
+      <Filter>Source\WallRun</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

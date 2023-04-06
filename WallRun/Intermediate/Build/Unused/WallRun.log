@@ -1,18 +1,20 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\pruth\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\PortfolioRepos\WallRun\WallRun).
+  Invalidating makefile for WallRunEditor (working set of source files changed)
   Building WallRunEditor...
   Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from WallRun unity file: BaseLevel.cpp, LevelSpawner.cpp, Obstacle.cpp, Spikes.cpp
+  [Adaptive Build] Excluded from WallRun unity file: PlayerCharacter.cpp, WallSpike.cpp
   Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 5.24 GB available: limiting max parallel actions to 3
-  Building 4 actions with 3 processes...
-  [1/4] Compile LevelSpawner.cpp
-  [2/4] Link UnrealEditor-WallRun.lib
-     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.exp
-  [3/4] Link UnrealEditor-WallRun.dll
-     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.suppressed.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.suppressed.exp
-  [4/4] WriteMetadata WallRunEditor.target
-  Total time in Parallel executor: 12.97 seconds
-  Total execution time: 13.45 seconds
+    Requested 1.5 GB free memory per action, 2.93 GB available: limiting max parallel actions to 1
+  Building 5 actions with 1 process...
+  [1/5] Compile PlayerCharacter.cpp
+  [2/5] Compile WallSpike.cpp
+  [3/5] Link UnrealEditor-WallRun-0003.lib
+     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun-0003.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun-0003.exp
+  [4/5] Link UnrealEditor-WallRun-0003.dll
+     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun-0003.suppressed.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun-0003.suppressed.exp
+  [5/5] WriteMetadata WallRunEditor.target
+  Total time in Parallel executor: 43.83 seconds
+  Total execution time: 45.68 seconds
