@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\source\\wallrun\\baselevel.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\wallruneditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\development\\wallrun\\definitions.wallrun.h",
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\source\\wallrun\\baselevel.h",
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\inc\\wallrun\\baselevel.generated.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "d:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\shapecomponent.generated.h",
+            "d:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\boxcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

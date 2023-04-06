@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\inc\\wallrun\\levelspawner.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\wallruneditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\development\\wallrun\\definitions.wallrun.h",
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\source\\wallrun\\levelspawner.h",
+            "d:\\portfoliorepos\\wallrun\\wallrun\\wallrun\\intermediate\\build\\win64\\unrealeditor\\inc\\wallrun\\levelspawner.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

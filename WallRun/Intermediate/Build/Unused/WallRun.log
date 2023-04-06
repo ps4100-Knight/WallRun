@@ -1,5 +1,18 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\pruth\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\PortfolioRepos\WallRun\WallRun).
-UnrealBuildTool : error : Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: The command "D:\UE_5.0\Engine\Build\BatchFiles\Build.bat WallRunEditor Win64 Development -Project="D:\PortfolioRepos\WallRun\WallRun\WallRun\WallRun.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Building WallRunEditor...
+  Using Visual Studio 2019 14.29.30146 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from WallRun unity file: BaseLevel.cpp, LevelSpawner.cpp, Obstacle.cpp, Spikes.cpp
+  Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+    Executing up to 8 processes, one per physical core
+    Requested 1.5 GB free memory per action, 5.24 GB available: limiting max parallel actions to 3
+  Building 4 actions with 3 processes...
+  [1/4] Compile LevelSpawner.cpp
+  [2/4] Link UnrealEditor-WallRun.lib
+     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.exp
+  [3/4] Link UnrealEditor-WallRun.dll
+     Creating library D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.suppressed.lib and object D:\PortfolioRepos\WallRun\WallRun\WallRun\Intermediate\Build\Win64\UnrealEditor\Development\WallRun\UnrealEditor-WallRun.suppressed.exp
+  [4/4] WriteMetadata WallRunEditor.target
+  Total time in Parallel executor: 12.97 seconds
+  Total execution time: 13.45 seconds

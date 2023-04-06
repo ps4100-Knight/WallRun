@@ -38,10 +38,34 @@
     <Filter Include="Source\WallRun">
       <UniqueIdentifier>{05041A09-438C-35E9-A9E0-517C1F5F75E7}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\WallRun\BaseLevel.cpp">
+      <Filter>Source\WallRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WallRun\BaseLevel.h">
+      <Filter>Source\WallRun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WallRun\LevelSpawner.cpp">
+      <Filter>Source\WallRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WallRun\LevelSpawner.h">
+      <Filter>Source\WallRun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WallRun\Obstacle.cpp">
+      <Filter>Source\WallRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WallRun\Obstacle.h">
+      <Filter>Source\WallRun</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\WallRun\PlayerCharacter.cpp">
       <Filter>Source\WallRun</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\WallRun\PlayerCharacter.h">
+      <Filter>Source\WallRun</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WallRun\Spikes.cpp">
+      <Filter>Source\WallRun</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WallRun\Spikes.h">
       <Filter>Source\WallRun</Filter>
     </ClInclude>
     <None Include="..\..\Source\WallRun\WallRun.Build.cs">
