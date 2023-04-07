@@ -23,5 +23,7 @@ protected:
 
 public:
 	virtual void Tick(float DeltaTime) override;
+	float speedInc = 0.0f;                      //for increasing the wall speed every tick
+	float wallSpeed = 350.0f;					//Base wall speed
 
 };

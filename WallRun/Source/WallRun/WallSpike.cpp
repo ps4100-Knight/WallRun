@@ -19,5 +19,6 @@ void AWallSpike::BeginPlay()
 void AWallSpike::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	SetActorLocation(GetActorLocation() + FVector(0, 350 * DeltaTime, 0), true);
+	wallSpeed += speedInc;
+	SetActorLocation(GetActorLocation() + FVector(0, wallSpeed * DeltaTime, 0), true);
 }
